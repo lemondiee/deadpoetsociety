@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Society</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Garamond', serif;
+            background: url('path-to-background-image.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f5f5f5; 
+            text-align: center;
+            background: url('image/dps.webp') no-repeat center center/cover;
+            background-color: #121212;
+        }
+        
+        .invitation {
+            background: rgba(18, 18, 18, 0.9); 
+            border: 2px solid #4b0082;
+            border-radius: 15px;
+            padding: 2rem;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8); 
+        }
+        
+        .invitation h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #ffcc00; 
+        }
+        
+        .invitation p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+            color: #dcdcdc;
+        }
+        
+        .invitation a {
+            display: inline-block;
+            text-decoration: none;
+            background: #4b0082;
+            color: #f5f5f5;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 5px 15px rgba(75, 0, 130, 0.5); 
+        }
+        
+        .invitation a:hover {
+            background: #9932cc;
+            transform: scale(1.05);
+        }
+        
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="invitation fade-in">
+        <h1>O captain, my captian</h1>
+        <p>
+            Welcome to a sanctuary of words and wonder. The <strong>Dead Poets Society</strong> beckons you 
+            to seize the day and make your life extraordinary. Carpe Diam.
+        </p>
+        <p>
+            Click below to enter the world of poetry, sweetness, and love.
+        </p>
+        <a href="https://www.your-main-site.com">Enter the Society</a>
+    </div>
+</body>
+</html>
